@@ -129,21 +129,16 @@ def get_peft_state_maybe_zero_3(named_params, bias):
 
 
 def train():
-    print('parssinngggg')
     parser = transformers.HfArgumentParser(
         (ModelArguments, DataArguments, TrainingArguments, LoraArguments)
     )
 
-    logging.info('first shit show')
-    print('first shit show')
     (
         model_args,
         data_args,
         training_args,
         lora_args,
     ) = parser.parse_args_into_dataclasses()
-    print('we are here')
-
    
 
     device_map = None
@@ -250,6 +245,5 @@ def train():
 
 
 if __name__ == "__main__":
-    print('hellll')
     logging.info('den')
     train()

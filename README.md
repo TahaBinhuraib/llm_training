@@ -6,10 +6,7 @@ This repository contains tools and scripts for working with data and training Lo
 
 1. **Prepare Data:**
    - Make sure to create a folder called `data` to store your data.
-   - Run the following command:
-     ```bash
-     mkdir data
-     ```
+
 
 2. **Convert Data to JSON:**
    - Write a simple Python script to convert data to JSON format.
@@ -22,3 +19,4 @@ This repository contains tools and scripts for working with data and training Lo
 
    Make sure to customize the script according to your requirements.
 
+Code is mostly taken from [fastchat](https://github.com/lm-sys/FastChat)
